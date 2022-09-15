@@ -1,0 +1,10 @@
+@mixin font($fs: 14px, $fw: 700, $lh: 18px) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh / $fs;
+}
+@mixin flex-centering($df: flex, $jc: center, $ai: center;) {
+    display: flex: $df;
+    justify-content: center: $jc;
+    align-items: center: $ai;
+    }
