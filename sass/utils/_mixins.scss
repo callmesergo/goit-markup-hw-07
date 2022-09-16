@@ -3,8 +3,4 @@
     font-weight: $fw;
     line-height: $lh / $fs;
 }
-@mixin flex-centering($df: flex, $jc: center, $ai: center;) {
-    display: flex: $df;
-    justify-content: center: $jc;
-    align-items: center: $ai;
-    }
+
