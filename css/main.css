@@ -154,6 +154,7 @@ body {
   line-height: 1.16;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 
 .modal-close-btn {
@@ -213,12 +214,18 @@ body {
   outline: none;
   transition: border-color var(--transition-dur-and-func);
 }
+.input-modal-form:focus {
+  border-color: var(--accent-color);
+}
 
 .modal-form-icon {
   position: absolute;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+}
+.input-modal-form:focus + .modal-form-icon {
+  fill: var(--accent-color);
 }
 
 .icon-shadow {
@@ -228,14 +235,6 @@ body {
 .wrapper-input {
   position: relative;
   display: block;
-}
-
-.input-modal-form:focus {
-  border-color: var(--accent-color);
-}
-
-.input-modal-form:focus + .modal-form-icon {
-  fill: var(--accent-color);
 }
 
 .textarea-modal-form {
@@ -630,7 +629,7 @@ body {
   width: 700px;
 }
 
-.second-section-info-title {
+.second-section__info-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -639,7 +638,7 @@ body {
   margin-bottom: 10px;
 }
 
-.second-section-about-thumb {
+.second-section__about-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -650,7 +649,7 @@ body {
   border-radius: 4px;
 }
 
-.second-section-text {
+.second-section__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -666,13 +665,13 @@ body {
   align-items: center;
 }
 
-.second-section-about {
+.second-section__about {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
 }
 
-.second-section-about-card {
+.second-section__about-card {
   flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -750,14 +749,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.section-our-team {
-  margin-bottom: 50px;
-}
-
-.section-title-team {
-  margin-bottom: 50px;
 }
 
 .team {

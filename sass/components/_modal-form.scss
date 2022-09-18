@@ -22,6 +22,9 @@
     height: 40px;
     outline: none;
     transition: border-color var(--transition-dur-and-func);
+   &:focus {
+            border-color: var(--accent-color);
+        }
 }
 
 .modal-form-icon {
@@ -29,6 +32,9 @@
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
+    .input-modal-form:focus+& {
+            fill: var(--accent-color);
+        }
 
 }
 
@@ -41,13 +47,9 @@
     display: block;
 }
 
-.input-modal-form:focus {
-    border-color: var(--accent-color);
-}
 
-.input-modal-form:focus+.modal-form-icon {
-    fill: var(--accent-color);
-}
+
+
 
 .textarea-modal-form {
     padding: 10px;

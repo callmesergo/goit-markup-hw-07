@@ -1,4 +1,4 @@
-.second-section-info-title {
+.second-section__info-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -7,7 +7,7 @@
     margin-bottom: 10px;
 }
 
-.second-section-about-thumb {
+.second-section__about-thumb {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@
     border-radius: 4px;
 }
 
-.second-section-text {
+.second-section__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -33,12 +33,12 @@
     align-items: center;
 }
 
-.second-section-about {
+.second-section__about {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
 }
 
-.second-section-about-card {
+.second-section__about-card {
     flex-basis: calc((100% - 90px) /4);
 }
